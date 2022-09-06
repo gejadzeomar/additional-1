@@ -41,12 +41,24 @@ let person = {
     lastName: "Arveladze",
     age: 20,
     phoneNumbers: [123456, 654321],
-    // phone: {
-    //     work: phoneNumbers[0],
-    //     home: phoneNumbers[1],
-    // }
-}
-console.log(person);
+    adress: ["Tbilisi", "Kutaisi"],  
+};
+// // console.log(person);
 
+// let myObjArr = [
+//     {name: "nino", age: 10},
+//     {name: "tea", age: 15},
+//     {name: "gio", age: 20},
+//     {name: "nika", age: 25},
+//     {name: "saba", age: 22},
+// ]
+// console.log(myObjArr)
 
+// let personObjNino = myObjArr[0];
+// console.log(personObjNino);
 
+console.log(
+    "my name is" {person.firstname}, "my age is ${person.age}, my adress is ${person.adress[0]}"
+    );
+
+console.log(person.firstname)
