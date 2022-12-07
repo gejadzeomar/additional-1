@@ -1,48 +1,48 @@
 
 
-const myName = "Omar" ,
-    myHobby = "codding" ,
-    yearOfBirth = 1989 ,
-    currentYear = 2022 ;
+// const myName = "Omar" ,
+//     myHobby = "codding" ,
+//     yearOfBirth = 1989 ,
+//     currentYear = 2022 ;
 
-    let aboutMe = "My name is " 
-    + myName +  " I am " +
-     (currentYear - yearOfBirth) + 
-     " years old and my hobby is " + 
-     myHobby; 
+//     let aboutMe = "My name is " 
+//     + myName +  " I am " +
+//      (currentYear - yearOfBirth) + 
+//      " years old and my hobby is " + 
+//      myHobby; 
     
 // console.log(aboutMe);
-myAge = (currentYear - yearOfBirth);
-let user = {
-    name: "Omar",
-    yearOfBirth: 1989,
-    age: myAge,
-    adress: "tbilisi",
-    email: "example@gmail.com",
-    tel: {
-        home: 12345678,
-        mob: 598123456
-    },
+// myAge = (currentYear - yearOfBirth);
+// let user = {
+//     name: "Omar",
+//     yearOfBirth: 1989,
+//     age: myAge,
+//     adress: "tbilisi",
+//     email: "example@gmail.com",
+//     tel: {
+//         home: 12345678,
+//         mob: 598123456
+//     },
 
-}
+// }
 
 
 // console.log(user);
 
 
-let myArr = [2, 5, 9, 7, 4];
-let myArrLength = myArr.length;
-let myArrSum = myArr[0] + myArr[1] + myArr[2] + myArr[3] + myArr[4];
-let myArrAvverage = myArrSum / myArrLength;
-// console.log('averrage is ' + myArrAvverage);
+// let myArr = [2, 5, 9, 7, 4];
+// let myArrLength = myArr.length;
+// let myArrSum = myArr[0] + myArr[1] + myArr[2] + myArr[3] + myArr[4];
+// let myArrAvverage = myArrSum / myArrLength;
+// // console.log('averrage is ' + myArrAvverage);
 
-let person = {
-    firstname: "Nino",
-    lastName: "Arveladze",
-    age: 20,
-    phoneNumbers: [123456, 654321],
-    adress: ["Tbilisi", "Kutaisi"],  
-};
+// let person = {
+//     firstname: "Nino",
+//     lastName: "Arveladze",
+//     age: 20,
+//     phoneNumbers: [123456, 654321],
+//     adress: ["Tbilisi", "Kutaisi"],  
+// };
 // // console.log(person);
 
 // let myObjArr = [
@@ -61,9 +61,9 @@ let person = {
 
 // console.log(person.firstname)
 
-let totalPrice = 200;
-let distance = 15;
-let deliveryPrice = 10;
+// let totalPrice = 200;
+// let distance = 15;
+// let deliveryPrice = 10;
 
 // if(distance < 10){
 //     console.log("delivery price is 20$")
@@ -140,13 +140,58 @@ let deliveryPrice = 10;
 //     j++;
 // } while (j < 5);
 
+// let myArrFor = [2, 4, 6, 8, 10];
+// let sumFor = 0;
+// for (let index = 0; index < myArrFor.length; index++) {
+//     sumFor = sumFor + myArrFor[index];
+//     averrage = sumFor / myArrFor.length;
+//     console.log(sumFor);
+//     console.log("average is ", averrage);
+// }
+
+
+// let i = 0;
+// while (i < 10) {
+//     console.log(i, "text");
+//     // if(i === 2) {
+//     //     continue;
+//     // }
+//     if (i=="6") {
+//         break;
+//     }
+//     i++;
+// }
+
 let myArrFor = [2, 4, 6, 8, 10];
+let myArrForLength = myArrFor.length;
+// console.log(myArrFor);
+
+
+// for (let index = 0; index < myArrForLength; index++) {
+//     console.log(myArrFor[index]);
+// }
+// let index = 0;
 let sumFor = 0;
-for (let index = 0; index < myArrFor.length; index++) {
-    sumFor = sumFor + myArrFor[index];
-    averrage = sumFor / myArrFor.length;
-    console.log(sumFor);
-    console.log("average is ", averrage);
+
+// while (index < myArrForLength) {
+//     console.log(myArrFor[index]);
+//     index++;
+    
+// }
+// sumFor = sumFor + myArrFor[index];
+//     console.log(sumFor);
+// for (let index = 0; index < myArrForLength; index++) {
+//     sumFor = sumFor + myArrFor[index];
+//     console.log(sumFor)
+// }
+// console.log(sumFor / myArrForLength);
+let index = 0;
+
+
+while (index < myArrForLength) {
+
+console.log(myArrFor[index]);
+sumFor = sumFor + myArrFor[index];
+console.log(sumFor / myArrForLength);
+index++;
 }
-
-
